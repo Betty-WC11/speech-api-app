@@ -25,11 +25,13 @@ function FindVoices({ voices, setVoices, selectedVoice, onVoiceChange }) {
           value={selectedVoice}
           onChange={(e) => onVoiceChange(e.target.value)}
         >
-          {voices.map((voice) => (
-            <option key={voice.name} value={voice.name}>
-              {voice.name}({voice.lang})
-            </option>
-          ))}
+          {voices
+            .filter((v) => v.lang === "en-US" || v.lang === "en-GB")
+            .map((voice) => (
+              <option key={voice.name} value={voice.name}>
+                {voice.name}({voice.lang})
+              </option>
+            ))}
         </select>
       </div>
     </>
