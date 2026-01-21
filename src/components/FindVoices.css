@@ -1,0 +1,19 @@
+.voices-list {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.voices-label {
+  margin: 0 40px 0 60px;
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.voices {
+  font-size: 1rem;
+  padding: 10px;
+  width: 200px;
+  font-weight: bold;
+}

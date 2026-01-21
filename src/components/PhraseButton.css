@@ -1,0 +1,15 @@
+button {
+  /* background-color: rgb(23, 34, 82); */
+  color: rgb(12, 12, 12);
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5%;
+  border-color: rgb(12, 12, 12);
+  box-shadow: 5px 10px 10px grey;
+  cursor: pointer;
+}
