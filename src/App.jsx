@@ -32,7 +32,7 @@ function App() {
       <div className="text">
         <p>
           What motivational quote do you need to hear today? Select a voice of
-          your liking and choose your quote!
+          your liking and choose a quote below!
         </p>
       </div>
       <div className="voice-dropdown">
