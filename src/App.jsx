@@ -29,6 +29,12 @@ function App() {
     <>
       <h1>Motivation Booster!</h1>
       <h2>Communication Aid</h2>
+      <div className="text">
+        <p>
+          What motivational quote do you need to hear today? Select a voice of
+          your liking and choose your quote!
+        </p>
+      </div>
       <div className="voice-dropdown">
         <FindVoices
           voices={voices}

@@ -24,3 +24,46 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 30px;
 }
+
+.voice-dropdown {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px 0px 20px;
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+/* Mobile stack into 2 columns */
+@media (max-width: 768px) {
+  .phraseButtons {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Small mobile: stack into 1 column */
+@media (max-width: 480px) {
+  .phraseButtons {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
