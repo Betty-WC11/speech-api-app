@@ -1,6 +1,6 @@
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 .voices-list {
   display: flex;
@@ -23,6 +23,8 @@
   width: 100%;
   max-width: 200px;
   font-weight: bold;
+  position: relative;
+  z-index: 10;
 }
 
 /* Tablet */
