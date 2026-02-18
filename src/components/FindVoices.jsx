@@ -18,22 +18,22 @@ function FindVoices({ voices, setVoices, selectedVoice, onVoiceChange }) {
 
   return (
     <>
-      <div className="voices-list">
-        <label className="voices-label">Select a Voice</label>
-        <select
-          className="voices"
-          value={selectedVoice}
-          onChange={(e) => onVoiceChange(e.target.value)}
-        >
-          {voices
-            .filter((v) => v.lang === "en-US" || v.lang === "en-GB")
-            .map((voice) => (
-              <option key={voice.name} value={voice.name}>
-                {voice.name}({voice.lang})
-              </option>
-            ))}
-        </select>
-      </div>
+      {/* <div className="voices-list"> */}
+      <label className="voices-label">Select a Voice</label>
+      <select
+        className="voices"
+        value={selectedVoice}
+        onChange={(e) => onVoiceChange(e.target.value)}
+      >
+        {voices
+          .filter((v) => v.lang === "en-US" || v.lang === "en-GB")
+          .map((voice) => (
+            <option key={voice.name} value={voice.name}>
+              {voice.name}({voice.lang})
+            </option>
+          ))}
+      </select>
+      {/* </div> */}
     </>
   );
 }

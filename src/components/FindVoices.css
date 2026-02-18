@@ -2,13 +2,13 @@
   outline: 1px solid red;
 }
 
-.voices-list {
+/* .voices-list {
   display: flex;
   align-items: center;
   margin-top: 40px;
   flex-wrap: wrap;
   padding: 0 16px;
-}
+} */
 
 .voices-label {
   margin: 0 20px 10px 0;
